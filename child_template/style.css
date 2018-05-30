@@ -1,0 +1,44 @@
+/*
+Theme Name: Starter Child
+Template: starter_template
+*/
+.btn{
+border-radius: 1rem;
+}
+.transparent {
+   background: rgba(0,0,0,0.0);
+}
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+.full{
+  min-height: 80%;  /* Fallback for IE9  */
+  min-height: 80vh; /* Modern Browser value*/
+}
+footer{
+  background-color: #111517;
+}
+.kare{
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../../uploads/kareface.png);
+  background-size: cover
+}
+.csgo{
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../../uploads/csbg.jpg);
+  background-size: cover
+}
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+h1,h2,h3,h4{
+   letter-spacing: -.25px;
+  font-weight: bold;
+}
+
+a{
+  color:#dc3545;
+}
+a:hover{
+  color:#cc1e2f;
+}
