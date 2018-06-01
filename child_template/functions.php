@@ -1,4 +1,5 @@
 <?php // Queue parent style followed by child/customized style
+//int_max initialized to force priority of child style css, inspired by post on stackoverflow
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles', PHP_INT_MAX);
 
 function theme_enqueue_styles() {

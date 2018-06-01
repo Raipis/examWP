@@ -3,7 +3,9 @@
   <div class="container">
 
 
-<?php dynamic_sidebar( 'footer-information' ); ?>
+<?php
+//loading custom footer and wordpress footer
+dynamic_sidebar( 'footer-information' ); ?>
 </div>
 </footer>
 <?php wp_footer(); ?>
