@@ -1,0 +1,23 @@
+.container{
+  margin:0;
+  text-align: center;
+
+
+}
+.image{
+  margin:auto;
+  background-image: url(http://xray.raykay.dk/wp-content/uploads/uzitoo.png);
+  width: 400px;
+  height: 400px;
+
+}
+input{
+  display:inline;
+  margin-top:33px;
+  background-color : transparent;
+  border:0;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+}
